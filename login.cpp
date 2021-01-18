@@ -28,7 +28,6 @@ int login(const char *logname, const char *logpass) {
         
         if(strcmp(headHash[index]->name, logname)==0) { //kalau username dan password ada di database dan benar
             if (strcmp(headHash[index]->pass,logpass) != 0) {
-                puts("Wrong Pass");
                 return 2;
             }
             else{ 
