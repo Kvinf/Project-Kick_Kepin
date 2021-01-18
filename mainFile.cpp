@@ -7,11 +7,7 @@
 
 
 int main () {
-    insertHash("Kevin","1");
-    insertHash("Carrick","2");
-    insertHash("Djoni","3");
-    insertHash("nana","papa");
-	 int inputMenu = 0;
+int inputMenu = 0;
     while (inputMenu != 3) {
     	printMainMenu();
     	scanf("%d",&inputMenu);
