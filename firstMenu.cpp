@@ -129,8 +129,6 @@ void printLoginMenu(){
             }
             temp = temp->next;
         }
-
-        // BRB KAWAN KONTOL AKU
         if (l == 1) {
             printf("1");
             printf("Good Carrick Kontol Djoni Juga");
